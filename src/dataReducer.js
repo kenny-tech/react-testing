@@ -1,5 +1,5 @@
 const dataReducer = ( state, action ) => {
-    if(action.type == 'SET_ERROR') {
+    if(action.type === 'SET_ERROR') {
       return { ...state, list: [], error: true };
     }
   
